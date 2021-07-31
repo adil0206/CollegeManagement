@@ -6,7 +6,7 @@ public class CollegeDaoImpl implements CollegeDao {
 
 	@Override
 	public int save(SignUp sUp) {
-
+		System.out.println("CollegeDaoImpl.save()");
 		return 0;
 	}
 
